@@ -2,6 +2,7 @@ import { Grid } from '@mui/material';
 import './App.css';
 import AlertUI from './components/AlertUI';
 import HeaderUI from './components/HeaderUI';
+import SelectorUI from './components/SelectorUI';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
         />
       </Grid>
 
-      <Grid size={{ xs: 12, md: 3 }}>Elemento: Selector</Grid>
+      <Grid size={{ xs: 12, md: 3 }}>
+        <SelectorUI />
+      </Grid>
       <Grid size={{ xs: 12, md: 9 }}>Elemento: Indicadores</Grid>
       <Grid
         size={{ xs: 12, md: 6 }}
